@@ -23,7 +23,7 @@ p {
 }
 
 section {
-  padding: 20px;
+  padding: 10px;
 }
 
 section.alternate-background {
@@ -99,7 +99,7 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 form {
   border: 2px solid #ff385c;
-  padding: 10px;
+  padding: 5px;
 
 }
 
@@ -112,7 +112,6 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 140px;
 }
 
 form div {
@@ -127,7 +126,7 @@ form button {
   border: none;
   color: #fff;
   font-size: 20px;
-  padding: 15px;
+  padding: 5px;
   width:100%;
 
 }
@@ -167,6 +166,7 @@ footer p {
   .group {
     display:flex;
     flex-direction: column; 
+    width:20%;
   }
   /* - - - Search Form - - - */
   form{
@@ -179,12 +179,8 @@ footer p {
     margin: 15px 0 0 0;
   }
 
-  form select,
-  form input{
-    width:150px;
-  }
 
-   form button {
+  form button {
     width: 15%
   }
 
