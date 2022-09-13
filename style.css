@@ -112,6 +112,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
+  width:60%;
 }
 
 form div {
